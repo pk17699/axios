@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 
+/* .overflow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: aqua;
+} 
+
+*/
+
+.form {
+    max-width: 550px;
+    height: 360px;
+    width: 90%;
+    background: white;
+    box-shadow: 0px 5px 5px gray;
+    /* border: 1px solid gray;   */
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.button {
+    width: 40%;
+    padding: 3px;
+    /* margin: 8px; */
+    margin: 20px;
+    float: right;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
